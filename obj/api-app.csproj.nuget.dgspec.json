@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/felipesergios/Documentos/NETCORE/api-app/api-app.csproj": {}
+    "/Users/felipesilva/Documents/NET/ToDOapp/api-app.csproj": {}
   },
   "projects": {
-    "/home/felipesergios/Documentos/NETCORE/api-app/api-app.csproj": {
+    "/Users/felipesilva/Documents/NET/ToDOapp/api-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/felipesergios/Documentos/NETCORE/api-app/api-app.csproj",
+        "projectUniqueName": "/Users/felipesilva/Documents/NET/ToDOapp/api-app.csproj",
         "projectName": "api-app",
-        "projectPath": "/home/felipesergios/Documentos/NETCORE/api-app/api-app.csproj",
-        "packagesPath": "/home/felipesergios/.nuget/packages/",
-        "outputPath": "/home/felipesergios/Documentos/NETCORE/api-app/obj/",
+        "projectPath": "/Users/felipesilva/Documents/NET/ToDOapp/api-app.csproj",
+        "packagesPath": "/Users/felipesilva/.nuget/packages/",
+        "outputPath": "/Users/felipesilva/Documents/NET/ToDOapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/felipesergios/.nuget/NuGet/NuGet.Config"
+          "/Users/felipesilva/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,7 +38,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.8, )"
             },
@@ -57,7 +75,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.107/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

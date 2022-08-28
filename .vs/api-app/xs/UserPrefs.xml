@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{CF9D9EDE-D97A-4101-81CD-08AF336CEA46}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.api-app PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Model/TodoContext.cs">
+    <Files>
+      <File FileName="Repositories/ItodosRepository.cs" Line="14" Column="2" />
+      <File FileName="Program.cs" Line="32" Column="1" />
+      <File FileName="Model/TodoContext.cs" Line="4" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="api-app" expanded="True">
+            <Node name="api-app" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

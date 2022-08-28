@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using api_app.Repositories;
 using api_app.Model;
+using Microsoft.AspNetCore.Authorization;
 
 namespace api_app.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class TodoController : ControllerBase

@@ -8,11 +8,6 @@ public class TestingController : ControllerBase
 {
     [HttpGet]
     public string Get(){
-         for (int i = 10 - 1; i >= 0; i--)
-        {
-            Console.WriteLine(i);
-
-        }
-        return "Hello Word";
+        return "Hello Mundo";
     }
 }
