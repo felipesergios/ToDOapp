@@ -27,4 +27,7 @@
     <None Remove="Microsoft.AspNetCore.Identity.UI" />
     <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\TestingController.cs" />
+  </ItemGroup>
 </Project>

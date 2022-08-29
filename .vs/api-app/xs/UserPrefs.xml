@@ -1,25 +1,28 @@
 ﻿<Properties StartupConfiguration="{CF9D9EDE-D97A-4101-81CD-08AF336CEA46}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.api-app PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Model/TodoContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Migrations/20220827141728_Identity.cs">
     <Files>
-      <File FileName="Repositories/ItodosRepository.cs" Line="14" Column="2" />
-      <File FileName="Program.cs" Line="32" Column="1" />
-      <File FileName="Model/TodoContext.cs" Line="4" Column="24" />
+      <File FileName="Controllers/AuthController.cs" Line="69" Column="43" />
+      <File FileName="Program.cs" Line="24" Column="39" />
+      <File FileName="AppSettings.cs" Line="4" Column="18" />
+      <File FileName="appsettings.json" Line="13" Column="36" />
+      <File FileName="Model/TodoContext.cs" Line="1" Column="1" />
+      <File FileName="Model/IdentityViewModels.cs" Line="1" Column="1" />
+      <File FileName="Model/Todo.cs" Line="1" Column="1" />
+      <File FileName="Migrations/20220827141728_Identity.cs" Line="67" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="api-app" expanded="True">
             <Node name="api-app" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Model" expanded="True" />
-              <Node name="Repositories" expanded="True" />
+              <Node name="Migrations" expanded="True" />
             </Node>
           </Node>
         </State>
